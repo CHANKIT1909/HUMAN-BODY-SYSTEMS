@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ...existing code... -->
+</head>
+<body>
+  <!-- ...existing code... -->
+  <main>
+    <section>
+      <h2>Welcome!</h2>
+      <p>The human body is a complex and fascinating system made up of many parts working together to sustain life. Explore this website to learn more about the different body systems that keep us moving, thinking, and living!</p>
+    </section>
+    <section>
+      <h2>Body Systems</h2>
+      <div>
+        <h3>Skeletal System</h3>
+        <img src="images/skeletal.jpg" alt="Skeletal System" width="300">
+      </div>
+      <div>
+        <h3>Muscular System</h3>
+        <img src="images/muscular.jpg" alt="Muscular System" width="300">
+      </div>
+      <div>
+        <h3>Circulatory System</h3>
+        <img src="images/circulatory.jpg" alt="Circulatory System" width="300">
+      </div>
+      <div>
+        <h3>Nervous System</h3>
+        <img src="images/nervous.jpg" alt="Nervous System" width="300">
+      </div>
+      <div>
+        <h3>Digestive System</h3>
+        <img src="images/digestive.jpg" alt="Digestive System" width="300">
+      </div>
+    </section>
+  </main>
+  <!-- ...existing code... -->
+</body>
+</html>

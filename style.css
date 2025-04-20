@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #006699;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #005580;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 20px;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #004466;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 5px; /* Reduced padding */
+    background-color: #006699;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh; /* Full viewport height for vertical centering */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .images img {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+  
+  .images img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    border-color: #006699;
+  }
